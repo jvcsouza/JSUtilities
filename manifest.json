@@ -19,6 +19,10 @@
 			"matches": ["https://strawpoll.com/*"],
 			"js": ["jquery.js", "strawpoll.js"],
 			"css": ["strawpoll.css"]
+		},
+		{
+			"matches": ["https://virtualpiano.net/*"],
+			"js": ["jquery.js", "virtualpiano.js"]
 		}
 	],
 	"manifest_version": 3
