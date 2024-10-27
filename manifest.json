@@ -1,6 +1,6 @@
 {
     "name": "JSUtilities",
-    "version": "1.1.0",
+    "version": "2.0.0",
     "description": "Extensão de utilidades para modificar, alterar e adicionar funcionalidades a paginas web!",
     "icons": {
       "128": "logo.png"
@@ -9,6 +9,11 @@
       {
         "matches": ["https://bitbucket.org/*/*/branch/*"],
         "js": ["jquery.js", "bitbucket.js"]
+      },
+      {
+        "matches": ["https://*.atlassian.net/jira/**"],
+        "js": ["jquery.js", "jira.js"],
+        "css": ["jira.css"]
       }
     ],
     "manifest_version": 3
