@@ -1,20 +1,25 @@
 {
-    "name": "JSUtilities",
-    "version": "2.0.0",
-    "description": "Extensão de utilidades para modificar, alterar e adicionar funcionalidades a paginas web!",
-    "icons": {
-      "128": "logo.png"
-    },
-    "content_scripts": [
-      {
-        "matches": ["https://bitbucket.org/*/*/branch/*"],
-        "js": ["jquery.js", "bitbucket.js"]
-      },
-      {
-        "matches": ["https://*.atlassian.net/jira/**"],
-        "js": ["jquery.js", "jira.js"],
-        "css": ["jira.css"]
-      }
-    ],
-    "manifest_version": 3
+	"name": "JSUtilities",
+	"version": "2.0.0",
+	"description": "Extensão de utilidades para modificar, alterar e adicionar funcionalidades a paginas web!",
+	"icons": {
+		"128": "logo.png"
+	},
+	"content_scripts": [
+		{
+			"matches": ["https://bitbucket.org/*/*/branch/*"],
+			"js": ["jquery.js", "bitbucket.js"]
+		},
+		{
+			"matches": ["https://*.atlassian.net/jira/**"],
+			"js": ["jquery.js", "jira.js"],
+			"css": ["jira.css"]
+		},
+		{
+			"matches": ["https://strawpoll.com/*"],
+			"js": ["jquery.js", "strawpoll.js"],
+			"css": ["strawpoll.css"]
+		}
+	],
+	"manifest_version": 3
 }
